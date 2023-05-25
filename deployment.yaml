@@ -14,5 +14,5 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: index.docker.io/jsaraswathi/spinnaker-demo:latest
+      - image: index.docker.io/jsaraswathi/spinnaker-demo:${trigger[''tag'']}'
         name: sample-app
